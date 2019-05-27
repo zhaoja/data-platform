@@ -1,0 +1,40 @@
+{
+	"menu": [
+		{
+			"nav": "首页",
+			"path": "/home",
+			"icon": "el-icon-date"
+		}, {
+			"nav": "人员管理",
+			"path": "component",
+			"icon": "el-icon-mobile-phone",
+			"groups": [
+				{
+					"options": [
+						{
+							"title": "组织结构管理",
+							"path": "/component/form",
+							"icon":"el-icon-picture-outline"
+						}, {
+							"title": "职务结构管理",
+							"path": "/component/table",
+							"icon":"el-icon-picture-outline"
+						}, {
+							"title": "成员管理",
+							"path": "/component/tree",
+							"icon":"el-icon-picture-outline"
+						}, {
+							"title": "权限管理",
+							"path": "/component/list",
+							"icon":"el-icon-picture-outline"
+						}
+					]
+				} 
+			]
+		} , {
+			"nav": "其他",
+			"path": "/others",
+			"icon": "el-icon-tickets"
+		}
+	]
+}

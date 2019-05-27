@@ -1,0 +1,96 @@
+{
+	"menu": [
+		{
+			"nav": "项目日程安排",
+			"path": "/calendar",
+			"icon": "el-icon-star-on"
+		}, {
+			"nav": "组件",
+			"path": "component",
+			"icon": "el-icon-star-on",
+			"groups": [
+				{
+					"title": "分组一",
+					"options": [
+						{
+							"title": "表单",
+							"path": "/component/form"
+						}, {
+							"title": "表格",
+							"path": "/component/table"
+						}, {
+							"title": "树状图",
+							"path": "/component/tree"
+						}, {
+							"title": "列表",
+							"path": "/component/list"
+						}
+					]
+				}, {
+					"title": "分组二",
+					"options": [
+						{
+							"title": "表单2",
+							"path": "/component/form"
+						}, {
+							"title": "表格2",
+							"path": "/component/table"
+						}, {
+							"title": "树状图3",
+							"path": "/component/tree"
+						}, {
+							"title": "列表2",
+							"path": "/component/list"
+						}
+					]
+				}
+			]
+		}, {
+			"nav": "插件",
+			"path": "plug",
+			"icon": "el-icon-setting",
+			"groups": [
+				{
+					"title": "plug",
+					"options": [
+						{
+							"title": "echart3",
+							"path": "/plug/echart"
+						}, {
+							"title": "百度地图",
+							"path": "/plug/baidumap"
+						}, {
+							"title": "奥森图标",
+							"path": "/plug/fontawesome"
+						}
+					]
+				}
+			]
+		}, {
+			"nav": "相关连接",
+			"path": "connection",
+			"icon": "el-icon-setting",
+			"groups": [
+				{
+					"title": "分组一",
+					"options": [
+						{
+							"title": "json格式化工具",
+							"path": "https://www.bejson.com/"
+						}, {
+							"title": "百度地图",
+							"path": "/plug/baidumap"
+						}, {
+							"title": "奥森图标",
+							"path": "/plug/fontawesome"
+						}
+					]
+				}
+			]
+		}, {
+			"nav": "其他",
+			"path": "others",
+			"icon": "el-icon-warning"
+		}
+	]
+}

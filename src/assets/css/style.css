@@ -1,0 +1,61 @@
+.top{
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	line-height: 60px;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 3px;
+    /*background: #5487c6;*/
+	background: url(../../assets/images/bg-top.png);
+}
+.inheader .more {
+	cursor: pointer;
+	color: #5696ca;
+ 	font-size: 13px;
+}
+.inheader .more:hover {
+	color: #15619e;
+}
+.inheader .more i{
+    font-size: 16px;
+    margin-left:1px;
+}
+ 
+.my-table, .detail-inner{
+    padding: 60px 30px;
+    background: #f5f5f5;
+    height: calc(100vh - 60px);
+}
+
+.my-table-title {
+    background: #5486c7;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 15px;
+    letter-spacing: 1px;
+}
+.my-table-content{
+    background: #fff;
+    padding: 0 15px 30px 15px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(14, 14, 14, 0.1);
+    border: 1px solid #f5f5f5;
+}
+.table-seach {
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid #c1cada;
+    padding: 10px;
+    background: rgba(84, 134, 199, 0.1);
+}
+.my-table .el-tabs__header{
+	margin: 0 0 0px!important;
+}
+.table-seach .el-input{
+	width: 350px;
+}
